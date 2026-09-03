@@ -1,4 +1,4 @@
-FBAR — FinalBurn Android Reborn
+#FBAR — FinalBurn Android Reborn
 
 FBAR (FinalBurn Android Reborn) is a personal passion project focused on bringing the classic Android arcade-emulation experience back to modern Android devices.
 
@@ -213,3 +213,12 @@ FinalBurn Android Reborn
 A personal passion project bringing classic arcade emulation back to modern Android.
 
 «🎮 Made as a hobby. Built with passion. Inspired by the classics.»
+
+
+🏆 Current development status:
+- Full working build ✅
+- new ui implementation ✅
+- support for older and newer Android 16+ devices. ✅
+- public release date (very soon)
+- Testing (ongoing)
+
