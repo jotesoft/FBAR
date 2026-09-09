@@ -1,10 +1,10 @@
-#FBAR — FinalBurn Android Reborn
+FBAR — FinalBurn Android Reborn
 
 FBAR (FinalBurn Android Reborn) is a personal passion project focused on bringing the classic Android arcade-emulation experience back to modern Android devices.
 
 FBAR is my hobby project and is developed independently in my spare time. It is inspired by discontinued Android arcade emulators such as aFBA, FBA4droid, and Kawaks Android.
 
-The goal is to preserve the simplicity and feel of those classic emulators while improving compatibility and usability on modern Android versions.
+The goal is to preserve the simplicity and feel of those classic emulators while improving Design, compatibility and usability on modern Android versions and add new features.
 
 «FBAR is an independent project and is not affiliated with the original developers of aFBA, FBA4droid, Kawaks, or FinalBurn.»
 
@@ -54,7 +54,7 @@ FBAR is not an official continuation of any of these projects. It is my own inde
 
 ❤️ Why I Made FBAR
 
-Older Android arcade emulators were some of the simplest and most enjoyable ways to play arcade games on a phone.
+Older Android arcade emulators like Fba4droid, afba, kwasks Android were some of the simplest and most enjoyable ways to play arcade games on a phone. also they where ahad from other emulator which is supporting hacked rom on Android. 
 
 Unfortunately, Android has changed significantly over the years. Many older applications were designed for much earlier versions of Android and no longer work correctly on modern devices.
 
@@ -62,7 +62,7 @@ I wanted to see if I could bring that experience back.
 
 So FBAR started as a personal project:
 
-«An attempt to bring the classic FBA Android experience back to life on modern Android.»
+«An attempt to bring the classic FBA Android Fba4droid experience back to life on modern Android.»
 
 There is no commercial goal behind the project. I work on FBAR simply because I enjoy it.
 
@@ -137,24 +137,10 @@ Because this is a personal project, development speed may vary.
 
 Stability is also important. When something works reliably, changes should be made carefully rather than constantly replacing working components.
 
----
-
-🚧 Future Plans
-
-Possible future improvements include:
-
-- Improved frontend/UI
-- Better ROM detection
-- Improved game information
-- Customizable touch controls
-- Improved scaling options
-- Performance improvements
-- Android TV improvements
-- Additional compatibility improvements
-
-These are goals and ideas, not promises or a fixed roadmap.
+Artificial intelligence used for debugging purpose to keep my sanity in check. so if you have issue with that move forward with your issues. 
 
 ---
+
 
 ⚖️ Legal Notice
 
@@ -200,7 +186,7 @@ Special thanks to the developers and contributors behind:
 - aFBA
 - FBA4droid
 - Kawaks
-- The wider arcade-emulation scene
+- The wider arcade-emulation scene.
 
 Their work helped inspire this project.
 
@@ -219,6 +205,12 @@ A personal passion project bringing classic arcade emulation back to modern Andr
 - Full working build ✅
 - new ui implementation ✅
 - support for older and newer Android 16+ devices. ✅
-- public release date (very soon)
-- Testing (ongoing)
+- improved privacy and security. ✅
+- public release ✅
+- Rollback netcode implementation (ongoing)
+- improved sounds engine. (TBA)
+- implementation of inbuilt rom .dat generator (TBA)
+- support for some unsupported romset (TBA)
+- online Multiplayer co-op lobby (TBA)
+- rebuilding/recreating all the core libery to support latest Android architecture (ongoing)
 
