@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20.0sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ff0000ff"
+        android:gravity="center"
+        android:id="@id/textview1"
+        android:background="#ffadd8e6"
+        android:paddingLeft="6.0dip"
+        android:paddingTop="6.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRec"
+        android:drawableLeft="@drawable/app_rec" />
+    <ListView
+        android:id="@id/main_list"
+        android:animationCache="false"
+        android:persistentDrawingCache="none"
+        android:alwaysDrawnWithCache="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollingCache="false"
+        android:divider="@null"
+        android:dividerHeight="0.0px" />
+</LinearLayout>

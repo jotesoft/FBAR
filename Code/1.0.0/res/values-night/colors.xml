@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMainBg">#ff303030</color>
+    <color name="colorMainText">#ffeeeeee</color>
+    <color name="colorMenuBg">#ff606060</color>
+    <color name="colorSubBg">#ff606060</color>
+    <color name="colorSubText">#ffcccccc</color>
+</resources>

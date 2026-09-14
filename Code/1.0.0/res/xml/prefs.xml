@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/SettingTitle"
+    android:key="options"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/PrefGeneral">
+        <CheckBoxPreference
+            android:title="@string/EnableAudio"
+            android:key="enableAudio"
+            android:summary="@string/EnableAudioDesp"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/RenderMode"
+            android:key="renderMode"
+            android:summary="@string/RenderModeDesp"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/RenderQaulity"
+            android:key="renderQuality"
+            android:summary="@string/RenderQaulityDesp"
+            android:defaultValue="true" />
+        <ListPreference
+            android:entries="@array/filter_mode_entry"
+            android:title="@string/filterTitle"
+            android:key="filterMode"
+            android:defaultValue="0"
+            android:entryValues="@array/filter_mode" />
+        <CheckBoxPreference
+            android:title="@string/autoMultiThreadTitle"
+            android:key="autoMultiThread"
+            android:summary="@string/autoMultiThreadDesp"
+            android:defaultValue="true" />
+        <ListPreference
+            android:entries="@array/orient_mode"
+            android:title="@string/OrientMode"
+            android:key="screenOrient"
+            android:summary="@string/OrientModeDesp"
+            android:defaultValue="0"
+            android:entryValues="@array/orient_mode_val" />
+        <ListPreference
+            android:entries="@array/screen_ratio"
+            android:title="@string/ScreenMode"
+            android:key="screenMode"
+            android:summary="@string/ScreenModeDesp"
+            android:defaultValue="0"
+            android:entryValues="@array/screen_ratio_val" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/PrefVirtualInput">
+        <CheckBoxPreference
+            android:title="@string/EnableVpad"
+            android:key="enableVPad"
+            android:defaultValue="true" />
+        <PreferenceScreen
+            android:title="@string/VpadStyle"
+            android:key="vpad_style_dialg" />
+        <CheckBoxPreference
+            android:title="@string/vpadPlayer"
+            android:key="vpadPlayer"
+            android:summary="@string/vpadPlayerDesp"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/VPadAutoLayout"
+            android:key="vpadAutoLayout"
+            android:summary="@string/VPadAutoLayoutDesp"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/vpadAnima"
+            android:key="PREF_VPAD_ANIMA"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/analogPrettyTitle"
+            android:key="analogPretty"
+            android:summary="@string/analogPrettyDesp"
+            android:defaultValue="false" />
+        <ListPreference
+            android:entries="@array/default_size_entry"
+            android:title="@string/analogDeadzoneTitle"
+            android:key="analogDeadzoneNEW"
+            android:summary="@string/analogDeadzoneDesp"
+            android:defaultValue="2"
+            android:entryValues="@array/default_values" />
+        <ListPreference
+            android:entries="@array/default_size_entry"
+            android:title="@string/analogExpandzoneTitle"
+            android:key="analogExpandzoneNEW"
+            android:summary="@string/analogExpandzoneDesp"
+            android:defaultValue="1"
+            android:entryValues="@array/default_values" />
+        <ListPreference
+            android:entries="@array/default_size_entry"
+            android:title="@string/buttonExpandzoneTitle"
+            android:key="buttonExpandzoneNEW"
+            android:summary="@string/buttonExpandzoneDesp"
+            android:defaultValue="2"
+            android:entryValues="@array/default_values" />
+        <CheckBoxPreference
+            android:title="@string/EnableVibrate"
+            android:key="enableVibrator"
+            android:summary="@string/EnableVibrateDesp"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/PrefPhysicalInput">
+        <CheckBoxPreference
+            android:title="@string/EnableOneControllerTitle"
+            android:key="enableOneController"
+            android:summary="@string/EnableOneControllerDesp"
+            android:defaultValue="false" />
+        <PreferenceScreen
+            android:title="@string/KeyMapTitle"
+            android:key="key_map_config"
+            android:summary="@string/KeyMapDesp">
+            <intent
+                android:action="com.jotesoft.fbar.DEFINE_KEYS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/PrefOthers">
+        <CheckBoxPreference
+            android:title="@string/ipsDetail"
+            android:key="PREF_IPS_DETAIL2"
+            android:defaultValue="false" />
+        <PreferenceScreen
+            android:title="@string/KeyResetConfig"
+            android:key="key_reset_config"
+            android:summary="@string/KeyResetConfigDesp" />
+    </PreferenceCategory>
+</PreferenceScreen>

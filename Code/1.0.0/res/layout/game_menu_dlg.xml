@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@id/menuSaveState"
+                android:text="@string/MenuSaveState"
+                style="@style/menu_item_style" />
+            <Button
+                android:id="@id/menuLoadState"
+                android:text="@string/MenuLoadState"
+                style="@style/menu_item_style" />
+            <Button
+                android:id="@id/menuGameShot"
+                android:text="@string/MenuGameShot"
+                style="@style/menu_item_style" />
+            <Button
+                android:id="@id/menuGameInfo"
+                android:text="@string/gameInfo"
+                style="@style/menu_item_style" />
+            <Button
+                android:id="@id/menuRestartGame"
+                android:text="@string/MenuRestartGame"
+                style="@style/menu_item_style" />
+            <Button
+                android:id="@id/menuCloseGame"
+                android:text="@string/MenuCloseGame"
+                style="@style/menu_item_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

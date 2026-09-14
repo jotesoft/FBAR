@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="RomOpera">
+        <item>start</item>
+        <item>load state:1</item>
+        <item>load state:2</item>
+        <item>load state:3</item>
+        <item>load state:4</item>
+    </string-array>
+    <string-array name="StateLoadOp">
+        <item>load state:1</item>
+        <item>load state:2</item>
+        <item>load state:3</item>
+        <item>load state:4</item>
+    </string-array>
+    <string-array name="StateSaveOp">
+        <item>save state:1</item>
+        <item>save state:2</item>
+        <item>save state:3</item>
+        <item>save state:4</item>
+    </string-array>
+    <string-array name="default_size_entry">
+        <item>@string/sizeNone</item>
+        <item>@string/sizeSmall</item>
+        <item>@string/sizeMid</item>
+        <item>@string/sizeBig</item>
+    </string-array>
+    <string-array name="default_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="filter_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="filter_mode_entry">
+        <item>@string/filterNone</item>
+        <item>@string/filterXbrz</item>
+        <item>@string/filterHq</item>
+    </string-array>
+    <string-array name="frame_skip">
+        <item>@string/skipAuto</item>
+        <item>@string/skipZero</item>
+        <item>@string/skipOne</item>
+        <item>@string/skipTwo</item>
+        <item>@string/skipThree</item>
+        <item>@string/skipFour</item>
+    </string-array>
+    <string-array name="frame_skip_val">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="key_map">
+        <item>@string/Key0</item>
+        <item>@string/Key1</item>
+        <item>@string/Key2</item>
+        <item>@string/Key3</item>
+        <item>@string/Key4</item>
+        <item>@string/Key5</item>
+        <item>@string/Key6</item>
+        <item>@string/Key7</item>
+        <item>@string/Key8</item>
+        <item>@string/Key9</item>
+        <item>@string/Key10</item>
+        <item>@string/Key11</item>
+        <item>@string/Key12</item>
+        <item>@string/Key13</item>
+        <item>@string/Key14</item>
+        <item>@string/Key15</item>
+    </string-array>
+    <string-array name="orient_mode">
+        <item>@string/orientAuto</item>
+        <item>@string/orientLandscape</item>
+        <item>@string/orientPortrait</item>
+        <item>@string/orientLandscapeRev</item>
+        <item>@string/orientPortraitRev</item>
+    </string-array>
+    <string-array name="orient_mode_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pad_size">
+        <item>@string/VPadSize1</item>
+        <item>@string/VPadSize2</item>
+        <item>@string/VPadSize3</item>
+        <item>@string/VPadSize4</item>
+    </string-array>
+    <string-array name="pad_size_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="screen_ratio">
+        <item>@string/screenAutoStretch</item>
+        <item>@string/screenFull</item>
+        <item>@string/screenOrigin</item>
+        <item>@string/screenRatio34</item>
+        <item>@string/screenRatio43</item>
+    </string-array>
+    <string-array name="screen_ratio_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="transparency">
+        <item>no transparent</item>
+        <item>20%</item>
+        <item>50%</item>
+        <item>80%</item>
+    </string-array>
+    <string-array name="transparency_val">
+        <item>0</item>
+        <item>20</item>
+        <item>50</item>
+        <item>80</item>
+    </string-array>
+    <string-array name="vpad_style">
+        <item>@string/VpadAnalog1</item>
+        <item>@string/VpadAnalog2</item>
+        <item>@string/VpadAnalog3</item>
+        <item>@string/VpadAnalog4</item>
+        <item>@string/VpadAnalog5</item>
+        <item>@string/VpadAnalog6</item>
+        <item>@string/VpadDigital1</item>
+        <item>@string/VpadDigital2</item>
+        <item>@string/VpadDigital3</item>
+        <item>@string/VpadDigital4</item>
+        <item>@string/VpadDigital5</item>
+    </string-array>
+    <string-array name="vpad_style_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

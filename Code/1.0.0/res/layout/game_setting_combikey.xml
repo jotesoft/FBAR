@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/jianbian"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/ddddd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyC1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyC2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyC3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyC4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyC5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyC6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyD1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyD2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyD3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyD4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyD5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyD6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyE1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyE2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyE3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyE4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyE5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyE6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyF1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyF2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyF3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyF4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyF5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyF6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearG"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyG1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyG2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyG3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyG4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyG5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyG6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearH"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyH1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyH2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyH3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyH4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyH5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyH6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearI"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyI1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyI2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyI3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyI4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyI5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyI6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearJ"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyJ1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyJ2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyJ3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyJ4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyJ5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyJ6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearK"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyK1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyK2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyK3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyK4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyK5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyK6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearM"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyM1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyM2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyM3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyM4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyM5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyM6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearX"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyX1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyX2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyX3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyX4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyX5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyX6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyA1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyA2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyA3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyA4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyA5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyA6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearY"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyY1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyY2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyY3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyY4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyY5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyY6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyB1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyB2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyB3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyB4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyB5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyB6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyL1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyL2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyL3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyL4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyL5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyL6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/linearR"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/imgKeyR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFFFF"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="0.0"
+                    android:shadowRadius="2.0"
+                    android:id="@id/txtKeyD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fKeyTitle" />
+                <ImageView
+                    android:id="@id/imgKeyR1"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyR2"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyR3"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyR4"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyR5"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@id/imgKeyR6"
+                    android:paddingLeft="2.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:gravity="center"
+                android:id="@id/viewMore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showMore" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/linearOther"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@id/tvScreenRatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/screenRatioTitle" />
+                <Spinner
+                    android:id="@id/spinScreenRatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/tvSeekBar"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turboKeySpeed"
+                    android:layout_weight="2.0" />
+                <SeekBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/seekBar"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:max="15"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:textColor="#ff000000"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/cbHandFreeTurbo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hands-Free Auto-Fire A"
+                    android:layout_weight="1.0" />
+                <CheckBox
+                    android:textColor="#ff000000"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/cbEnableTurbo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enableAutoFire"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="12.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hands-Free Auto-Fire takes effect immediately; Long-Press Auto-Fire takes effect after saving." />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/gameSettingLinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip">
+                <Button
+                    android:shadowColor="#FF000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0"
+        android:textColor="#FFFFFFFF"
+        android:id="@id/btnCombiKeyClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/configClear"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:shadowColor="#FF000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0"
+        android:textColor="#FFFFFFFF"
+        android:id="@id/btnCombiKeySaveAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/configToApp"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:shadowColor="#FF000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0"
+        android:textColor="#FFFFFFFF"
+        android:id="@id/btnCombiKeySaveGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/configToGame"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/jianbian"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/acbuwa_topbar"
+        android:background="@drawable/jianbian"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="10.0dip"
+        android:elevation="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip">
+        <TextView
+            android:id="@id/topbar_title"
+            android:text="@string/fba4"
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            android:gravity="center_vertical"
+            android:shadowColor="#AA000000"
+            android:shadowDx="0.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="3.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6.0dip" />
+        <TextView
+            android:text="www.jote.top"
+            android:textSize="9.0sp"
+            android:textColor="#FF9AA8C0"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/topbar_title"
+            android:layout_marginTop="-1.0dip" />
+        <Button
+            android:id="@id/moreBtn"
+            android:background="@drawable/textview_bg"
+            android:padding="8.0dip"
+            android:drawableRight="@drawable/ic_settings"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        <Button
+            android:id="@id/menuBtn"
+            android:background="@drawable/textview_bg"
+            android:padding="8.0dip"
+            android:drawableRight="@drawable/menu_list"
+            android:layout_toLeftOf="@id/moreBtn"
+            android:layout_marginRight="8.0dip"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/rr_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="12.0dip">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:id="@id/AdLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+        <GridView
+            android:id="@id/filelist"
+            android:background="#00000000"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:verticalSpacing="8.0dip"
+            android:horizontalSpacing="8.0dip"
+            android:numColumns="4"
+            android:columnWidth="1.0dip"
+            android:stretchMode="columnWidth"
+            android:layout_above="@id/AdLinearLayout"
+            android:fastScrollEnabled="true"
+            android:clipToPadding="false"
+            android:paddingBottom="16.0dip" />
+    </RelativeLayout>
+</LinearLayout>

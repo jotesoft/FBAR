@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/gameMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.joyemu.fba.FbaGLSurface
+        android:id="@id/gameGLSurface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.joyemu.newinput.GameOverlay
+        android:id="@id/gamePad"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

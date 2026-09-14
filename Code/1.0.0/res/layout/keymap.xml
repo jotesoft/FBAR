@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/jianbian"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:shadowColor="#FF000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0"
+        android:textColor="#FFFFFFFF"
+        android:id="@id/btnConfigOk"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="OK"
+            android:layout_weight="1.0" />
+        <Button
+            android:shadowColor="#FF000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0"
+        android:textColor="#FFFFFFFF"
+        android:id="@id/btnConfigCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Cancel"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/scrollKey"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/buttonLayout">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/linearChecks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/gameScreen"
+        android:title="@string/gameScreen" />
+    <item
+        android:id="@id/gameCombiKey"
+        android:title="@string/gameCombiKey" />
+    <item
+        android:id="@id/gameSoftInput"
+        android:title="@string/gameSoftInput" />
+    <item
+        android:id="@id/gameCheat"
+        android:title="@string/gameCheat" />
+    <item
+        android:id="@id/gameSysSetting"
+        android:title="@string/gameSysSetting" />
+    <item
+        android:id="@id/gameClose"
+        android:title="@string/gameClose" />
+</menu>
