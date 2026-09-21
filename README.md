@@ -1,4 +1,4 @@
-FBAR — FinalBurn Android Reborn
+<h1>FBAR Arcade — FinalBurn Android Reborn </h1>
 
 FBAR (FinalBurn Android Reborn) is a personal passion project focused on bringing the classic Android arcade-emulation experience back to modern Android devices.
 
