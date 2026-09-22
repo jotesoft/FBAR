@@ -1,16 +1,16 @@
-# <h1> FBAR Arcade — FinalBurn Android Reborn 🕹️</h1>
+#FBAR — FinalBurn Android Reborn
 
-FBAR (**FinalBurn Android Reborn**) is a personal passion project focused on bringing the classic Android arcade-emulation experience back to modern Android devices.
+FBAR (FinalBurn Android Reborn) is a personal passion project focused on bringing the classic Android arcade-emulation experience back to modern Android devices.
 
 FBAR is my hobby project and is developed independently in my spare time. It is inspired by discontinued Android arcade emulators such as aFBA, FBA4droid, and Kawaks Android.
 
-The goal is to preserve the simplicity and feel of those classic emulators while improving Design, compatibility and usability on modern Android versions and add new features.
+The goal is to preserve the simplicity and feel of those classic emulators while improving compatibility and usability on modern Android versions.
 
 «FBAR is an independent project and is not affiliated with the original developers of aFBA, FBA4droid, Kawaks, or FinalBurn.»
 
 ---
 
-<h3>🎮 What is FBAR?</h3>
+🎮 What is FBAR?
 
 FBAR — FinalBurn Android Reborn — is an Android arcade-emulation project created out of a personal interest in classic arcade games and emulation.
 
@@ -29,7 +29,7 @@ This is not a commercial project. It is something I work on as a hobby because I
 
 ---
 
-<h3>🕹️ Inspired By</h3>
+🕹️ Inspired By
 
 FBAR is inspired by the history of arcade emulation and, particularly, the Android projects that made FBA-style emulation accessible on mobile devices.
 
@@ -52,9 +52,9 @@ FBAR is not an official continuation of any of these projects. It is my own inde
 
 ---
 
-<h3>❤️ Why I Made FBAR </h3>
+❤️ Why I Made FBAR
 
-Older Android arcade emulators like Fba4droid, afba, kwasks Android were some of the simplest and most enjoyable ways to play arcade games on a phone. also they where ahad from other emulator which is supporting hacked rom on Android. 
+Older Android arcade emulators were some of the simplest and most enjoyable ways to play arcade games on a phone.
 
 Unfortunately, Android has changed significantly over the years. Many older applications were designed for much earlier versions of Android and no longer work correctly on modern devices.
 
@@ -62,13 +62,13 @@ I wanted to see if I could bring that experience back.
 
 So FBAR started as a personal project:
 
-«An attempt to bring the classic FBA Android Fba4droid experience back to life on modern Android.»
+«An attempt to bring the classic FBA Android experience back to life on modern Android.»
 
 There is no commercial goal behind the project. I work on FBAR simply because I enjoy it.
 
 ---
 
-<h3>✨ Project Goals</h3>
+✨ Project Goals
 
 The main goals of FBAR are:
 
@@ -89,7 +89,7 @@ Development is intentionally incremental.
 
 ---
 
-**📂 ROM Directory**
+📂 ROM Directory
 
 FBAR uses:
 
@@ -108,7 +108,7 @@ Users are responsible for obtaining and using ROMs legally.
 
 ---
 
-<h3>📱 Modern Android </h3>
+📱 Modern Android
 
 One of the main reasons for creating FBAR is the increasing incompatibility of older Android arcade emulators with modern Android versions.
 
@@ -137,12 +137,26 @@ Because this is a personal project, development speed may vary.
 
 Stability is also important. When something works reliably, changes should be made carefully rather than constantly replacing working components.
 
-Artificial intelligence used for debugging purpose to keep my sanity in check. so if you have issue with that move forward with your issues. 
+---
+
+🚧 Future Plans
+
+Possible future improvements include:
+
+- Improved frontend/UI
+- Better ROM detection
+- Improved game information
+- Customizable touch controls
+- Improved scaling options
+- Performance improvements
+- Android TV improvements
+- Additional compatibility improvements
+
+These are goals and ideas, not promises or a fixed roadmap.
 
 ---
 
-
-<h3>⚖️ Legal Notice </h3>
+⚖️ Legal Notice
 
 FBAR is an emulator project.
 
@@ -156,7 +170,7 @@ FBAR is an independent hobby project and is not affiliated with, endorsed by, or
 
 ---
 
-<h3> 🤝 Contributions </h3>
+🤝 Contributions
 
 FBAR is primarily a personal hobby project.
 
@@ -175,7 +189,7 @@ Please do not upload copyrighted ROM files to the repository.
 
 ---
 
-<h3> 🙏 Credits </h3>
+🙏 Credits
 
 FBAR would not have been possible without the work of the developers and communities behind arcade emulation and the projects that inspired it.
 
@@ -186,7 +200,7 @@ Special thanks to the developers and contributors behind:
 - aFBA
 - FBA4droid
 - Kawaks
-- The wider arcade-emulation scene.
+- The wider arcade-emulation scene
 
 Their work helped inspire this project.
 
@@ -201,18 +215,10 @@ A personal passion project bringing classic arcade emulation back to modern Andr
 «🎮 Made as a hobby. Built with passion. Inspired by the classics.»
 
 
-<h2>🏆 Current FBAR development status:</h2>
-
+🏆 Current development status:
 - Full working build ✅
 - new ui implementation ✅
 - support for older and newer Android 16+ devices. ✅
-- improved privacy and security. ✅
-- public release ✅
-- Rollback netcode implementation (ongoing)
-- improved sounds engine. (TBA)
-- implementation of inbuilt rom .dat generator (TBA)
-- Support for all romset (ongoing)
-- support for some unsupported romset (TBA)
-- online Multiplayer co-op lobby (TBA)
-- rebuilding/recreating all the core libery to support latest Android architecture (ongoing)
+- public release date (very soon)
+- Testing (ongoing)
 
