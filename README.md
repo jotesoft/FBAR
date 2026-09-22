@@ -10,6 +10,8 @@ The goal is to preserve the simplicity and feel of those classic emulators while
 
 ---
 
+![FBAR Arcade Cover](https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/fbar_cover2.jpg)
+
 <h3>🎮 What is FBAR?</h3>
 
 FBAR — FinalBurn Android Reborn — is an Android arcade-emulation project created out of a personal interest in classic arcade games and emulation.
@@ -223,10 +225,11 @@ A personal passion project bringing classic arcade emulation back to modern Andr
 - support for older and newer Android 16+ devices. ✅
 - improved privacy and security. ✅
 - public release ✅
+- Add compatibility for rom Hacks ✅
 - Rollback netcode implementation (ongoing)
 - improved sounds engine. (TBA)
 - implementation of inbuilt rom .dat generator (TBA)
 - Support for all romset (ongoing)
 - support for some unsupported romset (TBA)
-- online Multiplayer co-op lobby (TBA)
+- online Multiplayer/co-op lobby (TBA)
 - rebuilding/recreating all the core libery to support latest Android architecture (ongoing)
