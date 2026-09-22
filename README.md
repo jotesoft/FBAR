@@ -88,6 +88,13 @@ Development is intentionally incremental.
 «Keep what works. Improve one thing at a time.»
 
 ---
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ss.png" width="200">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator-ss2.png" width="200">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ss3.png" width="200">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ss4.png" width="200">
+</div>
+---
 
 **📂 ROM Directory**
 
