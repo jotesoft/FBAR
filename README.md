@@ -96,6 +96,14 @@ Development is intentionally incremental.
 </div>
 ---
 
+---
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ssw1.png" width="300">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ssw2.png" width="300">
+  <img src="https://raw.githubusercontent.com/jotesoft/FBAR/refs/heads/main/res/Fbar-arcade-emulator_ssw3.png" width="300">
+</div>
+---
+
 **📂 ROM Directory**
 
 FBAR uses:
